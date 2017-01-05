@@ -1,0 +1,26 @@
+.side {
+  background-color: #DADFE3;
+  height: 100vh;
+  padding: 10px;
+}
+
+.side-bar-content, .side-bar-panel, .side-bar {
+  height: 100vh;
+}
+
+.topBar {
+  background-color: #FF756D;
+  color: white;
+  display: flex;
+  height: 50px;
+}
+
+.topBar > div {
+  align-self: center;
+  flex: 1 1 0;
+  text-align: center;
+}
+
+.topBar .left, .topBar .right {
+  max-width: 50px;
+}
