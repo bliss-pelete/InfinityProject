@@ -1,0 +1,14 @@
+.side {
+  background-color: #DADFE3;
+  height: 100vh;
+  padding: 10px;
+}
+
+.side-bar-content, .side-bar-panel, .side-bar {
+  height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    align-items: center;
+}
