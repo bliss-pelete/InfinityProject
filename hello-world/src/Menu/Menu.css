@@ -24,3 +24,7 @@
 .topBar .left, .topBar .right {
   max-width: 50px;
 }
+
+p {
+  color: black;
+}

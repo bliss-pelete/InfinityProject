@@ -17,7 +17,6 @@ class Menu extends Component {
       side: 'left',
       size: 256,
       tolerance: 70,
-      topBarIncluded: true,
       touch: true,
       touchSize: 80
     };
@@ -37,14 +36,13 @@ class Menu extends Component {
 
   render(){
 
-    const { barOpened, duration, fx, mode, side, size, tolerance,
-      topBarIncluded, touch, touchSize } = this.state;
+    const { barOpened, duration, fx, mode, side, size, tolerance, touch, touchSize } = this.state;
     const navIconClassName = [ 'nav-icon' ];
 
     if (barOpened) {
        navIconClassName.push('open');
      }
-    const bar = (<div className='side'> <MenuItems/></div>);
+    const bar = (<div className='side'><MenuItems child={this.props.child} /></div>);
     const topBar = (<div className='topBar'>
       <div className='left'>
         <div
@@ -77,8 +75,15 @@ class Menu extends Component {
       }
     };
 
+  var childOfChild = '';
+
+    if (this.props.child.props.children) {
+      childOfChild = this.props.child.props.children;
+    }
+
     return(
       <Sidebar {...sideBarProps}>
+        <div style={{color: "black"}}>{childOfChild}</div>
       </Sidebar>
     );
   }
