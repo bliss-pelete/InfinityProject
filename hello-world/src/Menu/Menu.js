@@ -40,18 +40,15 @@ class Menu extends Component {
     const navIconClassName = [ 'nav-icon' ];
 
     if (barOpened) {
-       navIconClassName.push('open');
-     }
+      navIconClassName.push('open');
+    }
     /*const bar = (<div className='side'><MenuItems child={this.props.child} /></div>);*/
     const bar = (<div className='side'><DropdownMenu /></div>);
     const topBar = (<div className='topBar'>
       <div className='left'>
-        <div
-          className={navIconClassName.join(' ')}
-          onClick={this.toggleBar.bind(this)}>
+        <div className={navIconClassName.join(' ')} onClick={this.toggleBar.bind(this)}>
           <span/><span/><span/><span/>
         </div>
-
       </div>
       <div className='center'>Infinity Makers</div>
       <div className='right'></div>
@@ -76,15 +73,9 @@ class Menu extends Component {
       }
     };
 
-  var childOfChild = '';
-
-    if (this.props.child.props.children) {
-      childOfChild = this.props.child.props.children;
-    }
-
     return(
       <Sidebar {...sideBarProps}>
-        <div style={{color: "black"}}>{childOfChild}</div>
+        <div style={{color: "black"}}>{this.props.child}</div>
       </Sidebar>
     );
   }

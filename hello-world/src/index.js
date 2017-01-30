@@ -15,30 +15,27 @@ import Demo from './DemoPages/Demo';
 import Problems from './ProblemsPages/Problems';
 import Team from './ProblemsPages/Team';
 import Tech from './ProblemsPages/Tech';
+import Menu from './Menu/Menu';
 
 
 ReactDOM.render(
   (
-  <Router history={hashHistory}>
-    <Route path="/" component={App}>
-      <Route path="/intro" component={Intro}>
+    <Router history={hashHistory}>
+      <Route path="/" component={App} >
+        <Route path="/intro" component={Intro} />
         <Route path="/intro/objectifs" component={Objectifs} />
         <Route path="/intro/challenge" component={Challenge} />
         <Route path="/intro/existant" component={Existant} />
-      </Route>
-      <Route path="/developpement" component={Dev}>
+        <Route path="/developpement" component={Dev} />
         <Route path="/developpement/agile" component={Agile} />
         <Route path="/developpement/fonctionnalites" component={Fonctionnalites} />
-      </Route>
-      <Route path="/problems" component={Problems}>
+        <Route path="/problems" component={Problems} />
         <Route path="/problems/team" component={Team} />
         <Route path="/problems/tech" component={Tech} />
-      </Route>
-      <Route path="/demo" component={DemoWrapper}>
+        <Route path="/demo" component={DemoWrapper} />
         <Route path="/demo/test" component={Demo} />
       </Route>
-    </Route>
-  </Router>
+    </Router>
   )
   , document.getElementById('root')
 );
