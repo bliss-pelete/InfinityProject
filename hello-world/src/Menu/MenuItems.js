@@ -2,23 +2,38 @@ import React, { Component } from 'react';
 import './MenuItems.css';
 import { Link } from 'react-router';
 
+
 class MenuItems extends Component {
 
   render () {
     const items = ['Intro', 'Developpement', 'Problems', 'Demo'];
+    const subItems = this.props.child;
+    const itemsM = (items.map(function(x) {
+
+        var subItem=items.indexOf(x);
+      return (
+
+                  <li>
+                    <div className="MenuItem">
+                      <Link to={"/"+ x.toLowerCase()}> {x}</Link>
+
+                      <div>{subItems}</div>
+                      <ul>
+
+                      </ul>
+                    </div>
+                  </li>
+            );
+    }));
 
     return (
       <div>
         <ul>
-          <li><Link to="/intro"> {items[0]} </Link></li>
-          {this.props.child}
-          <li><Link to="/developpement"> {items[1]} </Link></li>
-          <li><Link to="/problems"> {items[2]} </Link></li>
-          <li><Link to="/demo"> {items[3]} </Link></li>
-        </ul>
+          {itemsM}
 
-      </div>
-    );
+          {this.props.child}
+        </ul>
+      </div>);
   };
 
   //onClick ()

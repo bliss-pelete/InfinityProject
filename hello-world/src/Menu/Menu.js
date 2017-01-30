@@ -3,7 +3,7 @@ import Sidebar from 'react-side-bar';
 import './Nav-icon.css';
 import './Menu.css';
 import MenuItems from './MenuItems';
-
+import DropdownMenu from './DropdownMenu/DropdownMenu';
 
 class Menu extends Component {
 
@@ -42,7 +42,8 @@ class Menu extends Component {
     if (barOpened) {
        navIconClassName.push('open');
      }
-    const bar = (<div className='side'><MenuItems child={this.props.child} /></div>);
+    /*const bar = (<div className='side'><MenuItems child={this.props.child} /></div>);*/
+    const bar = (<div className='side'><DropdownMenu /></div>);
     const topBar = (<div className='topBar'>
       <div className='left'>
         <div
