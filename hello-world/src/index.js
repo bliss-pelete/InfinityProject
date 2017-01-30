@@ -8,13 +8,18 @@ import Objectifs from './IntroPages/Objectifs';
 import Challenge from './IntroPages/Challenge';
 import Existant from './IntroPages/Existant';
 import Dev from './DevPages/Dev';
-import Agile from './DevPages/Agile';
-import Fonctionnalites from './DevPages/Fonctionnalites';
+import Entretiens from './DevPages/Entretiens';
+import Mockups from './DevPages/Mockups';
 import DemoWrapper from './DemoPages/DemoWrapper';
 import Demo from './DemoPages/Demo';
-import Problems from './ProblemsPages/Problems';
-import Team from './ProblemsPages/Team';
-import Tech from './ProblemsPages/Tech';
+import Fonctionnalite from './FonctionnalitePages/Fonctionnalite';
+import Aide from './FonctionnalitePages/Aide';
+import Colloc from './FonctionnalitePages/Colloc';
+import Compte from './FonctionnalitePages/Compte';
+import Etranger from './FonctionnalitePages/Etranger';
+import Notification from './FonctionnalitePages/Notification';
+import Tirelire from './FonctionnalitePages/Tirelire';
+import Virement from './FonctionnalitePages/Virement';
 import Menu from './Menu/Menu';
 
 
@@ -27,11 +32,16 @@ ReactDOM.render(
         <Route path="/intro/challenge" component={Challenge} />
         <Route path="/intro/existant" component={Existant} />
         <Route path="/developpement" component={Dev} />
-        <Route path="/developpement/agile" component={Agile} />
-        <Route path="/developpement/fonctionnalites" component={Fonctionnalites} />
-        <Route path="/problems" component={Problems} />
-        <Route path="/problems/team" component={Team} />
-        <Route path="/problems/tech" component={Tech} />
+        <Route path="/developpement/entretiens" component={Entretiens} />
+        <Route path="/developpement/mockups" component={Mockups} />
+        <Route path="/fonctionnalite" component={Fonctionnalite} />
+        <Route path="/fonctionnalite/aide" component={Aide} />
+        <Route path="/fonctionnalite/colloc" component={Colloc} />
+        <Route path="/fonctionnalite/compte" component={Compte} />
+        <Route path="/fonctionnalite/etranger" component={Etranger} />
+        <Route path="/fonctionnalite/notification" component={Notification} />
+        <Route path="/fonctionnalite/tirelire" component={Tirelire} />
+        <Route path="/fonctionnalite/virement" component={Virement} />
         <Route path="/demo" component={DemoWrapper} />
         <Route path="/demo/test" component={Demo} />
       </Route>

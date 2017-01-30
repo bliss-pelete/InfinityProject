@@ -34,12 +34,12 @@ class DropdownMenu extends React.Component {
 				isOpen: false,
 				children: [
 					{
-						name: <Link to="/developpement/agile"> Agile </Link>,
+						name: <Link to="/developpement/entretiens"> Entretiens </Link>,
 						id: 0
 					},
 
 					{
-						name: <Link to="/developpement/fonctionnalites"> Fonctionnalites </Link>,
+						name: <Link to="/developpement/mockups"> Mockups </Link>,
 						id: 1
 					}
 				]

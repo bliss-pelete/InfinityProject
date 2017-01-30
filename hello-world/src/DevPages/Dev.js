@@ -8,8 +8,8 @@ class Dev extends Component {
     return (
       <div>
         <ul>
-          <li><Link to="/developpement/agile"> Agile </Link></li>
-          <li><Link to="/developpement/fonctionnalites"> Fonctionnalites </Link></li>
+          <li><Link to="/developpement/entretiens"> Entretiens </Link></li>
+          <li><Link to="/developpement/mockups"> Mockups </Link></li>
         </ul>
       </div>
     );
