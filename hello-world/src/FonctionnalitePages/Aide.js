@@ -27,8 +27,8 @@ class Aide extends Component {
         <br />A chaque première utilisation
         <br />Activable de nouveau depuis l’aide
       </p>
-      <img src="" />
-      <img src="" />
+      <img role="presentation" src="" />
+      <img role="presentation" src="" />
       </div>
     );
   }

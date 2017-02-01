@@ -11,8 +11,8 @@ class Virement extends Component {
       <p>Simples et Rapides</p>
       <p>Facilité pour les très petites sommes</p>
       <p>Juste avec un numéro de mobile, un mail ou un QR’rib</p>
-      <img src="" />
-      <img src="" />
+      <img role="presentation" src={require('../images/VirementRempli.png')}/>
+      <img role="presentation" src={require('../images/VirementAccueilBeneficiaire.png')}/>
       </div>
     );
   }

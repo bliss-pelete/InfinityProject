@@ -13,8 +13,8 @@ class Compte extends Component {
       <p>Saisie des informations de base (nom, prénom, adresses, etc.)</p>
       <p>Photo ou scan des pièces justificatives</p>
       <p>Possibilité de prendre rdv pour faire ça avec un conseiller</p>
-      <img src="" />
-      <img src="" />
+      <img role="presentation" src={require('../images/creacompte2.png')} />
+      <img role="presentation" src={require('../images/CreaCompte7.png')}/>
       </div>
     );
   }

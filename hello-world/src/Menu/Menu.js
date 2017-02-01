@@ -73,11 +73,12 @@ class Menu extends Component {
       }
     };
 
+    var content = '';
     if (this.props.child) {
-      var content = (<div style={{color: "black"}}>{this.props.child}</div>);
+      content = (<div style={{color: "black"}}>{this.props.child}</div>);
 
     } else {
-      var content = (<div>
+      content = (<div>
       <h2>WAZA</h2>
       <p>L’appli bancaire des 16–35 ans qui vous facilite les économies</p>
       </div>);

@@ -14,8 +14,8 @@ class Etranger extends Component {
       <p>Banques partenaires</p>
       <p>Démarches importantes à réaliser à l’arrivée</p>
       <p>Points de retraits particuliers</p>
-      <img src="" />
-      <img src="" />
+      <img role="presentation" src="" />
+      <img role="presentation" src="" />
       </div>
     );
   }

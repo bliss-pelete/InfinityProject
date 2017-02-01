@@ -16,7 +16,7 @@ class Mockups extends Component {
         <br />Parcours utilisateur
       </p>
       <p>Permet de faire pivoter le MVP</p>
-      <img src="" />
+      <img role="presentation" src="" />
       </div>
     );
   }

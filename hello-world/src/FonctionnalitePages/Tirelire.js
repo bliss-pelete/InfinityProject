@@ -18,8 +18,8 @@ class Tirelire extends Component {
       <p>Visibles sur l’accueil avec les dernières dépenses</p>
       <p>Visibles depuis les différents comptes</p>
       <p>A remplir et vider en déplacements les sommes</p>
-      <img src="" />
-      <img src="" />
+      <img role="presentation" src={require('../images/Tirelire2.png')}/>
+      <img role="presentation" src="" />
       </div>
     );
   }

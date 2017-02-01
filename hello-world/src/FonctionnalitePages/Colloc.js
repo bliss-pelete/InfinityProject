@@ -12,8 +12,8 @@ class Colloc extends Component {
       <p>Tout le monde est averti des mouvements d’argent</p>
       <p>Validation des dépenses par tout le monde</p>
       <p>Participation commune simplifiée</p>
-      <img src="" />
-      <img src="" />
+      <img role="presentation" src={require('../images/EntreColoc2.png')}/>
+      <img role="presentation" src="" />
       </div>
     );
   }

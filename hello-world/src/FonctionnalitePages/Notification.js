@@ -16,8 +16,8 @@ class Notification extends Component {
       </p>
       <p>Totalement paramétrable</p>
       <p>Juste avec un numéro de mobile, un mail ou un QR’rib</p>
-      <img src="" />
-      <img src="" />
+      <img role="presentation" src={require('../images/Notif1.png')}/>
+      <img role="presentation" src={require('../images/Notif3.png')}/>
       </div>
     );
   }
