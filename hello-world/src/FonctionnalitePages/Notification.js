@@ -20,7 +20,6 @@ class Notification extends Component {
               </ul>
             </li>
             <li>Totalement paramétrable</li>
-            <li>Juste avec un numéro de mobile, un mail ou un QR’rib</li>
           </ul>
         </div>
         <div>

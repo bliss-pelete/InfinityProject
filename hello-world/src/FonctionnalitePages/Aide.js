@@ -8,30 +8,51 @@ class Aide extends Component {
     return (
       <div>
       <h4>Aide et conseil</h4>
-      <p>FAQ :
-        <br />Très gros contenu
-        <br />Précisions sur les termes des contrats
-      </p>
-      <p>Tchat :
-        <br />Réponse rapide
-        <br />Pas forcément besoin d’un conseiller ni d’un contact IRF
-      </p>
-      <p>Rappel par un conseiller :
-        <br />Gratuit et rapide
-      </p>
-      <p>Urgences :
-        <br />Accès rapide et direct
-        <br />Carte perdue avec possibilité de blocage temporaire (48h)
-        <br />Code pin oublié
-      </p>
-      <p>Tuto :
-        <br />A chaque première utilisation
-        <br />Activable de nouveau depuis l’aide
-      </p>
-      <img role="presentation" src={require('../images/Aide.png')} />
-      <img role="presentation" src={require('../images/AideCallConseillerDownClicked.png')} />
+      <div>
+      <div className="textbox">
+        <ul className="common_li">
+          <li>FAQ :
+            <ul>
+            <li>Très gros contenu</li>
+            <li>Précisions sur les termes des contrats</li>
+            </ul>
+          </li>
+          <li>Tchat :
+            <ul>
+            <li>Réponse rapide</li>
+            <li>Pas forcément besoin d’un conseiller ni d’un contact IRF</li>
+            </ul>
+          </li>
+          <li>Rappel par un conseiller :
+          <ul>
+            <li>Gratuit et rapide</li>
+          </ul>
+          </li>
+          <li>Urgences :
+            <ul>
+            <li>Accès rapide et direct</li>
+            <li>Carte perdue avec possibilité de blocage temporaire (48h)</li>
+            <li>Code pin oublié</li>
+            </ul>
+          </li>
+          <li>Tuto :
+          <ul>
+            <li>A chaque première utilisation</li>
+            <li>Activable de nouveau depuis l’aide</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <img role="presentation" src={require('../images/Aide.png')} />
+        <img role="presentation" src={require('../images/AideCallConseillerDownClicked.png')} />
+
+      </div>
       <img role="presentation" src={require('../images/AideFAQ.png')} />
       <img role="presentation" src={require('../images/AideMessage.png')} />
+      <div>
+      </div>
+      </div>
       </div>
     );
   }
