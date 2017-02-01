@@ -19,8 +19,8 @@ class Etranger extends Component {
           </ul>
         </div>
         <div>
-          <img role="presentation" src="" />
-          <img role="presentation" src="" />
+          <img role="presentation" src={require('../images/EtrangerAideInfo.png')} />
+          <img role="presentation" src={require('../images/EtrangerAideLocation.png')} />
         </div>
 
       </div>

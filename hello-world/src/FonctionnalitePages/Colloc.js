@@ -19,7 +19,7 @@ class Colloc extends Component {
         </div>
         <div>
           <img role="presentation" src={require('../images/EntreColoc2.png')}/>
-          <img role="presentation" src="" />
+          <img role="presentation" src={require('../images/CompteCollocOpÇrationsTireliresValidChecked.png')} />
         </div>
       </  div>
       </div>

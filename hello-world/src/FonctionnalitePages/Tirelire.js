@@ -27,7 +27,8 @@ class Tirelire extends Component {
         </div>
         <div>
         <img role="presentation" src={require('../images/Tirelire2.png')}/>
-        <img role="presentation" src="" />
+        <img role="presentation" src={require('../images/Tirelires.png')} />
+        <img role="presentation" src={require('../images/CompteCollocOpÇrationsTirelires.png')} />
         </div>
       </div>
       </div>

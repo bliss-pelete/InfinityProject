@@ -28,8 +28,10 @@ class Aide extends Component {
         <br />A chaque première utilisation
         <br />Activable de nouveau depuis l’aide
       </p>
-      <img role="presentation" src="" />
-      <img role="presentation" src="" />
+      <img role="presentation" src={require('../images/Aide.png')} />
+      <img role="presentation" src={require('../images/AideCallConseillerDownClicked.png')} />
+      <img role="presentation" src={require('../images/AideFAQ.png')} />
+      <img role="presentation" src={require('../images/AideMessage.png')} />
       </div>
     );
   }
