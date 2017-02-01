@@ -1,14 +1,8 @@
 .side {
-/*  background-color: #FF756D;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff756d+0,cbebff+53,f0f9ff+100 */*/
-background: #FF756D; /* Old browsers */
-background: -moz-linear-gradient(top,  #ff756d 0%, #cbebff 53%, #f0f9ff 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #ff756d 0%,#cbebff 53%,#f0f9ff 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #ff756d 0%,#cbebff 53%,#f0f9ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff756d', endColorstr='#f0f9ff',GradientType=0 ); /* IE6-9 */
-
-
+  /* other colors #174195 #40ADD4 #0171B7*/
+  background-color: #7FCFF0;
   height: 100vh;
-  padding: 10px;
+  /*padding: 10px;*/
 }
 
 .side-bar-content, .side-bar-panel, .side-bar {
@@ -16,7 +10,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff756d', end
 }
 
 .topBar {
-  background-color: #FF756D;
+  background-color: #7FCFF0;
   color: white;
   display: flex;
   height: 50px;
@@ -33,5 +27,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff756d', end
 }
 
 p {
+  padding-left:  20%;
+  padding-right: 20%;
+  text-align: justify;
   color: black;
 }

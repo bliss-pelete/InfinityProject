@@ -45,18 +45,35 @@ class DropdownMenu extends React.Component {
 				]
 			},
 			{
-				name: "Problèmes",
+				name: "Fonctionnalités",
 				id: 2,
 				isOpen: false,
 				children: [
 
 					{
-						name: <Link to="/problems/team"> Team Problems </Link>,
+						name: <Link to="/fonctionnalite/aide"> Aide </Link>,
 						id: 0
 					},
           {
-            name: <Link to="/problems/tech"> Tech Problems </Link>,
+            name: <Link to="/fonctionnalite/colloc"> Colloc </Link>,
             id: 1
+          }, {
+            name: <Link to="/fonctionnalite/compte"> Compte </Link>,
+            id: 2
+          },
+          {
+            name: <Link to="/fonctionnalite/etranger"> Etranger </Link>,
+            id: 3
+          },
+         {
+             name: <Link to="/fonctionnalite/notification"> Notifications </Link>,
+             id: 4
+          }, {
+            name: <Link to="/fonctionnalite/tirelire"> Tirelire </Link>,
+            id: 5
+          }, {
+            name: <Link to="/fonctionnalite/virement"> Virement </Link>,
+            id: 6
           }
 				]
 			},
@@ -104,7 +121,7 @@ class DropdownMenu extends React.Component {
            <InfinityMenu
                tree={this.state.tree}
               onNodeMouseClick={this.onNodeMouseClick.bind(this)}
-               maxLeaves={5}/*optional*/
+               maxLeaves={10}/*optional*/
            />
        );
    }

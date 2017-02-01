@@ -1,6 +1,6 @@
 
 .infinity-menu-node-container {
-	width: 100%;
+	width: inherit;
 	background-color: #FF756D;
 	color: rgb(255, 255, 255);
 	height: auto;;
@@ -11,11 +11,11 @@
 }
 
 .infinity-menu-node-container:hover {
-	background-color: #89877E;
+	background-color: #40ADD4;
 }
 
 .infinity-menu-leaf-container {
-	width: 100%;
+	width: inherit;
 	background-color: #FF756D;
 	color: white;
 	height: auto;
@@ -25,7 +25,7 @@
 }
 
 .infinity-menu-leaf-container:hover {
-	background-color:#89877E;
+	background-color:#40ADD4;
 }
 a {
 	decoration: none;
