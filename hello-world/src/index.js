@@ -21,6 +21,7 @@ import Notification from './FonctionnalitePages/Notification';
 import Tirelire from './FonctionnalitePages/Tirelire';
 import Virement from './FonctionnalitePages/Virement';
 import Menu from './Menu/Menu';
+import Team from './IntroPages/Team'
 
 
 ReactDOM.render(
@@ -31,6 +32,7 @@ ReactDOM.render(
         <Route path="/intro/objectifs" component={Objectifs} />
         <Route path="/intro/challenge" component={Challenge} />
         <Route path="/intro/existant" component={Existant} />
+        <Route path="/intro/team" component={Team} />
         <Route path="/developpement" component={Dev} />
         <Route path="/developpement/entretiens" component={Entretiens} />
         <Route path="/developpement/mockups" component={Mockups} />

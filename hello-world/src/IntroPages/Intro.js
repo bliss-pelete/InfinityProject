@@ -11,6 +11,7 @@ class Intro extends Component {
           <li><Link to="/intro/objectifs"> Objectifs </Link></li>
           <li><Link to="/intro/challenge"> Challenge </Link></li>
           <li><Link to="/intro/existant"> Existant </Link></li>
+          <li><Link to="/intro/team"> Team </Link></li>
         </ul>
       </div>
     );

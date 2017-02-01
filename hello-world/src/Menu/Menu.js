@@ -18,7 +18,7 @@ class Menu extends Component {
       size: 256,
       tolerance: 70,
       touch: true,
-      touchSize: 80
+      touchSize: 80,
     };
   }
 
@@ -73,9 +73,19 @@ class Menu extends Component {
       }
     };
 
+    if (this.props.child) {
+      var content = (<div style={{color: "black"}}>{this.props.child}</div>);
+
+    } else {
+      var content = (<div>
+      <h2>WAZA</h2>
+      <p>L’appli bancaire des 16–35 ans qui vous facilite les économies</p>
+      </div>);
+    }
+
     return(
       <Sidebar {...sideBarProps}>
-        <div style={{color: "black"}}>{this.props.child}</div>
+        {content}
       </Sidebar>
     );
   }

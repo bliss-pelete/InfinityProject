@@ -7,9 +7,17 @@ class Notification extends Component {
     return (
       <div>
       <h4>Les notifications</h4>
-<p>
-Actuellement la majorité des banques propose un service gratuit ou non pour notifier leurs clients s''ils sont à découvert ou si une somme supérieure à un certain montant est créditée ou débitée de leur compte. Nous proposons une intégration de ce types de notification directement dans l’application. Ce service serait donc gratuit pour l’utilisateur et il pourrait aisément le paramétrer.
-</p>
+      <p>Directement intégré à l’application</p>
+      <p>Notifie :
+        <br />Les montants crédités ou débités
+        <br />Les paliers atteints ou non
+        <br />Les bons plans
+        <br />Etc.
+      </p>
+      <p>Totalement paramétrable</p>
+      <p>Juste avec un numéro de mobile, un mail ou un QR’rib</p>
+      <img src="" />
+      <img src="" />
       </div>
     );
   }
