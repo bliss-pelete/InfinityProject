@@ -1,0 +1,25 @@
+img {
+  width: 25%;
+  height: auto;
+  object-fit: contain;
+   max-width: 100%;
+   margin-right: 4px;
+}
+
+.textbox {
+float: left;
+
+}
+h4 {
+
+  font-size: 2.8em;
+  font-family: "Gill Sans MT";
+}
+
+.common_li {
+  list-style: circle;
+  font-size: 1.5em;
+}
+.justcircle{
+  list-style-type: circle;
+}

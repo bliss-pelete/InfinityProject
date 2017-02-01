@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './common.css';
 class Virement extends Component {
 
   render() {
@@ -7,12 +7,20 @@ class Virement extends Component {
     return (
       <div>
       <h4>Les virements</h4>
-      <p>Moderniser cette fonctionnalité classique</p>
-      <p>Simples et Rapides</p>
-      <p>Facilité pour les très petites sommes</p>
-      <p>Juste avec un numéro de mobile, un mail ou un QR’rib</p>
+      <div>
+      <div className="textbox">
+      <ul className="common_li">
+      <li>Moderniser cette fonctionnalité classique</li>
+      <li>Simples et Rapides</li>
+      <li>Facilité pour les très petites sommes</li>
+      <li>Juste avec un numéro de mobile, un mail ou un QR’rib</li>
+      </ul>
+      </div>
+      <div>
       <img role="presentation" src={require('../images/VirementRempli.png')}/>
       <img role="presentation" src={require('../images/VirementAccueilBeneficiaire.png')}/>
+      </div>
+      </div>
       </div>
     );
   }

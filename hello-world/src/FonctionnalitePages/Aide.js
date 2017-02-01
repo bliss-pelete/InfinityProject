@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './common.css';
 
 class Aide extends Component {
 

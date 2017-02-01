@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './common.css';
 class Etranger extends Component {
 
   render() {
@@ -7,15 +7,22 @@ class Etranger extends Component {
     return (
       <div>
       <h4>Séjour à l’étranger</h4>
-      <p>Plus d’aide lors des déplacement de longue durée</p>
-      <p>Menu spécifique, aide spécifique</p>
-      <p>Localisation pour une aide ciblée</p>
-      <p>Tarifs bancaires</p>
-      <p>Banques partenaires</p>
-      <p>Démarches importantes à réaliser à l’arrivée</p>
-      <p>Points de retraits particuliers</p>
-      <img role="presentation" src="" />
-      <img role="presentation" src="" />
+        <div className="textbox">
+          <ul className="common_li">
+            <li>Plus d’aide lors des déplacement de longue durée</li>
+            <li>Menu spécifique, aide spécifique</li>
+            <li>Localisation pour une aide ciblée</li>
+            <li>Tarifs bancaires</li>
+            <li>Banques partenaires</li>
+            <li>Démarches importantes à réaliser à l’arrivée</li>
+            <li>Points de retraits particuliers</li>
+          </ul>
+        </div>
+        <div>
+          <img role="presentation" src="" />
+          <img role="presentation" src="" />
+        </div>
+
       </div>
     );
   }

@@ -69,7 +69,7 @@ class Menu extends Component {
       touch: touch,
       touchSize: touchSize,
       veilStyle: {
-        opacity: 0.4
+        opacity: -0.1
       }
     };
 

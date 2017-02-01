@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './common.css';
 class Colloc extends Component {
 
   render() {
@@ -7,13 +7,21 @@ class Colloc extends Component {
     return (
       <div>
       <h4>Entre colocs</h4>
-      <p>18-35 ans beaucoup de colocations (ou jeunes couples)</p>
-      <p>Gestion simplifiée avec un compte commun ou une tirelire commune</p>
-      <p>Tout le monde est averti des mouvements d’argent</p>
-      <p>Validation des dépenses par tout le monde</p>
-      <p>Participation commune simplifiée</p>
-      <img role="presentation" src={require('../images/EntreColoc2.png')}/>
-      <img role="presentation" src="" />
+      <div >
+        <div className="textbox">
+        <ul className="common_li">
+          <li>18-35 ans beaucoup de colocations (ou jeunes couples)</li>
+          <li>Gestion simplifiée avec un compte commun ou une tirelire commune</li>
+          <li>Tout le monde est averti des mouvements d’argent</li>
+          <li>Validation des dépenses par tout le monde</li>
+          <li>Participation commune simplifiée</li>
+        </ul>
+        </div>
+        <div>
+          <img role="presentation" src={require('../images/EntreColoc2.png')}/>
+          <img role="presentation" src="" />
+        </div>
+      </  div>
       </div>
     );
   }

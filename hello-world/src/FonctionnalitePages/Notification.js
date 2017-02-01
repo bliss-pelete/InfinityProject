@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './common.css';
 class Notification extends Component {
 
   render() {
@@ -7,17 +7,27 @@ class Notification extends Component {
     return (
       <div>
       <h4>Les notifications</h4>
-      <p>Directement intégré à l’application</p>
-      <p>Notifie :
-        <br />Les montants crédités ou débités
-        <br />Les paliers atteints ou non
-        <br />Les bons plans
-        <br />Etc.
-      </p>
-      <p>Totalement paramétrable</p>
-      <p>Juste avec un numéro de mobile, un mail ou un QR’rib</p>
-      <img role="presentation" src={require('../images/Notif1.png')}/>
-      <img role="presentation" src={require('../images/Notif3.png')}/>
+      <div>
+        <div className="textbox">
+          <ul className="common_li">
+            <li>Directement intégré à l’application</li>
+            <li>Notifie :
+              <ul className="justcirle">
+                <li>- Les montants crédités ou débités</li>
+                <li>- Les paliers atteints ou non</li>
+                <li>- Les bons plans</li>
+                <li>- Etc.</li>
+              </ul>
+            </li>
+            <li>Totalement paramétrable</li>
+            <li>Juste avec un numéro de mobile, un mail ou un QR’rib</li>
+          </ul>
+        </div>
+        <div>
+          <img role="presentation" src={require('../images/Notif1.png')}/>
+          <img role="presentation" src={require('../images/Notif3.png')}/>
+        </div>
+      </div>
       </div>
     );
   }

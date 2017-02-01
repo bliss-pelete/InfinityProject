@@ -25,6 +25,10 @@ class DropdownMenu extends React.Component {
           {
             name:<Link to="/intro/objectifs"> Objectifs </Link>,
             id:2,
+          },
+          {
+            name:<Link to="/intro/team"> Equipe </Link>,
+            id:3,
           }
 				]
 			},
